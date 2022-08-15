@@ -1,0 +1,160 @@
+.container {
+    box-shadow: 2px 2px 2px 2px var(--azul-escuro);
+    border-radius: 5px;
+    margin: 1em;
+    padding: 0.5em;
+  }
+
+  .cabecalho__botao:checked~.cabecalho__menu {
+    display: block;
+  }
+
+  .container__apresentacao{
+    display: flex;
+    justify-content: center;
+  }
+
+  .container__imagem--raphael {
+    width: 100%;
+    max-width: 458px;
+    height: auto;
+    margin: 0;
+    border-radius: 14%;
+    padding: 0.5em;
+    display: block;
+  }
+
+  .titulo__texto p {
+    text-align: center;
+    margin-bottom: 1em;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .apresentacao__texto {
+    text-align: center;
+    padding: 0.5em;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .apresentacao__texto--desktop{
+    display: none;
+  }
+
+  .apresentacao__texto h1 {
+    font-size: 18px;
+    text-decoration: underline;
+  }
+
+  .conteudo__texto {
+    display: block;
+    position: relative;
+    padding: 0.5em;
+    line-height: 1.4em;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 2em;
+  }
+
+  .wave {
+    position: relative;
+  }
+
+  .wave span {
+    position: relative;
+    display: inline-block;
+    font-size: 38px;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+
+  @media screen and (min-width: 992px) {
+    .container {
+      box-shadow: none;
+    }
+
+    .apresentacao__texto--desktop {
+      display: none;
+    }
+
+    .apresentacao__texto {
+      font-size: 42px;
+    }
+
+    .apresentacao__texto h1 {
+      font-size: 42px;
+    }
+
+    .titulo__texto p {
+      font-size: 40px;
+    }
+
+    .conteudo__texto {
+      font-size: 36px;
+    }
+
+    .container__apresentacao {
+      margin-top: 4em;
+    }
+  }
+
+  @media screen and (min-width: 1550px) {
+    .container {
+      box-shadow: none;
+    }
+
+    .container__imagem--raphael {
+      padding: 1em 1em 1em 6em;
+    }
+
+    .apresentacao__texto--desktop {
+      display: block;
+      margin: 2em 2em 0 0;
+      text-align: center;
+      align-items: center;
+      font-size: 40px;
+    }
+
+    .apresentacao__texto--desktop h1 {
+          font-size: 40px;
+    }
+
+    .apresentacao__texto--desktop p {
+        font-weight: 600;
+    }
+
+    .apresentacao__texto {
+      display: none;
+    }
+
+    .apresentacao__texto, .apresentacao__texto h1{
+      font-size: 48px;
+    }
+
+    .container__imagem--raphael {
+      width: 80%;
+    }
+
+    .container__apresentacao {
+      display: flex;
+      margin: 10em 5em 5em 5em;
+    }
+
+    .titulo__texto {
+      font-size:42px;
+      padding: 0 0.5em;
+    }
+
+    .titulo__texto p {
+      font-size: 48px;
+    }
+
+    .conteudo__texto {
+      opacity: 0;
+      transition: opacity 3.0s ease-out;
+    }
+  }

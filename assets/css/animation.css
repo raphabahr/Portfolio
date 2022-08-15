@@ -1,0 +1,105 @@
+@keyframes animate {
+    0%{
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+
+/*  -------------------------------------------------------------------------------------
+----------------------------Efeito balançar dos icones-----------------------------------
+  ------------------------------- -----------------------------------------------------*/
+
+  @keyframes bounce {
+    0%, 20%, 60%, 100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+      40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+      }
+
+      80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+      }
+  }
+
+/*  -------------------------------------------------------------------------------------
+-----------------------animação flip DESENVOLVEDOR FRONTEND------------------------------
+  ------------------------------- -----------------------------------------------------*/
+
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg)
+    }
+  }
+
+
+/*  -------------------------------------------------------------------------------------
+------------------------animação letra section titulo------------------------------------
+  ------------------------------- -----------------------------------------------------*/
+
+  .sections__titulo {
+    animation: glitch 1s linear infinite;
+  }
+
+  @keyframes glitch{
+    2%,64%{
+      transform: translate(2px,0) skew(0deg);
+    }
+    4%,60%{
+      transform: translate(-2px,0) skew(0deg);
+    }
+    62%{
+      transform: translate(0,0) skew(5deg);
+    }
+  }
+
+  .sections__titulo:before,
+  .sections__titulo:after{
+    content: attr(title);
+    position: absolute;
+    left: 10;
+  }
+
+  .sections__titulo:before{
+    animation: glitchTop 1s linear infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  }
+
+  @keyframes glitchTop{
+    2%,64%{
+      transform: translate(2px,-2px);
+    }
+    4%,60%{
+      transform: translate(-2px,2px);
+    }
+    62%{
+      transform: translate(13px,-1px) skew(-13deg);
+    }
+  }
+
+  .sections__titulo:after{
+    animation: glitchBotom 1.5s linear infinite;
+    clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  }
+
+  @keyframes glitchBotom{
+    2%,64%{
+      transform: translate(-2px,0);
+    }
+    4%,60%{
+      transform: translate(-2px,0);
+    }
+    62%{
+      transform: translate(-22px,5px) skew(21deg);
+    }
+  }

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Raphael Bahr Portfólio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Space+Mono&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400">
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+  <!-- Decorations -->
+  <div class="border glow">
+    <header class="cabecalho">
+
+      <input type="checkbox" id="menu" class="cabecalho__botao">
+      <label for="menu" class="cabecalho__rotulo">
+
+
+        <!-- HAMBURGUER -->
+        <svg class="hb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" stroke="#eee" stroke-width=".6"
+          fill="rgba(0,0,0,0)" stroke-linecap="round" style="cursor: pointer">
+          <path d="M2,3L5,3L8,3M2,5L8,5M2,7L5,7L8,7">
+            <animate dur="0.2s" attributeName="d"
+              values="M2,3L5,3L8,3M2,5L8,5M2,7L5,7L8,7;M3,3L5,5L7,3M5,5L5,5M3,7L5,5L7,7" fill="freeze"
+              begin="start.begin" />
+            <animate dur="0.2s" attributeName="d"
+              values="M3,3L5,5L7,3M5,5L5,5M3,7L5,5L7,7;M2,3L5,3L8,3M2,5L8,5M2,7L5,7L8,7" fill="freeze"
+              begin="reverse.begin" />
+          </path>
+          <rect width="10" height="10" stroke="none">
+            <animate dur="2s" id="reverse" attributeName="width" begin="click" />
+          </rect>
+          <rect width="10" height="10" stroke="none">
+            <animate dur="0.001s" id="start" attributeName="width" values="10;0" fill="freeze" begin="click" />
+            <animate dur="0.001s" attributeName="width" values="0;10" fill="freeze" begin="reverse.begin" />
+          </rect>
+        </svg>
+      </label>
+      <ul class="cabecalho__menu">
+        <li class="menu__item">
+          <a href="#sobre" class="menu__item--lista menu__item--neon">Sobre mim</a>
+        </li>
+        <li class="menu__item">
+          <a href="#projects" class="menu__item--lista menu__item--neon">Projetos</a>
+        </li>
+        <li class="menu__item">
+          <a href="#habilidade" class="menu__item--lista menu__item--neon">Habilidades</a>
+        </li>
+        <li class="menu__item">
+          <a href="#footer" class="menu__item--lista menu__item--neon">Contato</a>
+        </li>
+      </ul>
+    </header>
+
+    <!-- Spinning letter -->
+    <section class="container" id="sobre">
+      <div class="container__apresentacao">
+        <div class="apresentacao__texto--desktop">
+          <p>Olá !</p>
+          <span>Prazer sou Raphael Bahr</span>
+          <h1>Desenvolvedor
+            <div class="wave">
+              <span style="--i:1">F</span>
+              <span style="--i:2">r</span>
+              <span style="--i:3">o</span>
+              <span style="--i:4">n</span>
+              <span style="--i:5">t</span>
+              <span style="--i:6">-</span>
+              <span style="--i:7">e</span>
+              <span style="--i:8">n</span>
+              <span style="--i:9">d</span>
+            </div>
+
+          </h1>
+        </div>
+        <img class="container__imagem--raphael" src="./assets/img/eu.jpg" alt="Avatar do Raphael" />
+      </div>
+      <div class="apresentacao__texto">
+        <p>Olá !</p>
+        <span>Prazer sou Raphael Bahr</span>
+        <h1>Desenvolvedor Front-end</h1>
+      </div>
+
+
+      <div class="titulo__texto">
+        <p> Sobre mim </p>
+        <div class="conteudo__texto">
+          Desde de muito novo sou amante incondicional de tecnologia porém, a sindrome do impostor me atrasou alguns
+          anos
+          no estudo em programação, durante esses anos obtive experiência em várias áreas, desde comércio exterior o
+          qual eu
+          tenho formação até auditoria de processos.
+          <br> <br>
+          Em 2022 finalmente eu voltei a estudar desenvolvimento Front-end.
+          <br> <br>
+          Disponho de muita vontade de aprender, aprendo rápido e adoro desafios.
+          <br> <br>
+          Hoje estou estudando e desenvolvendo com as tecnologias, Javascript, CSS, HTML e Liquid.
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="sections__titulo" title="PROJETOS">PROJETOS</h2>
+      <div class="projects__container">
+        <div class="breve">
+          <img class="breve__neon" src="./assets/img/breve.svg" alt="Em breve">
+        </div>
+
+        <div class="breve">
+          <img class="breve__neon" src="./assets/img/breve.svg" alt="Em breve">
+        </div>
+
+        <div class="breve">
+          <img class="breve__neon" src="./assets/img/breve.svg" alt="Em breve">
+        </div>
+      </div>
+
+      <div class="github__link ">
+        <a href="https://github.com/raphabahr?tab=repositories" target="_blank">Repositórios - github</a>
+      </div>
+    </section>
+
+    <section class="habilidades" id="habilidade">
+      <div class="habilidade__container">
+        <div class="">
+          <h2 class="sections__titulo" title="HABILIDADES">HABILIDADES</h2>
+          <div class="habilidade__border">
+            <div class="container__habilidades">
+              <div class="habilidades__icone">
+                <img class="habilidades__icone--imagem habilidades__icone--neon" src="./assets/img/icons/html-5-100.svg"
+                  alt="html icone" />
+              </div>
+
+              <div class="habilidades__icone">
+                <img class="habilidades__icone--imagem habilidades__icone--neon"
+                  src="./assets/img/icons/icons8-css3-100.svg" alt="css icone" />
+              </div>
+
+              <div class="habilidades__icone">
+                <img class="habilidades__icone--imagem habilidades__icone--neon"
+                  src="./assets/img/icons/icons8-logotipo-javascript-100.svg" alt="javascript icone" />
+              </div>
+
+              <div class="habilidades__icone">
+                <img class="habilidades__icone--imagem habilidades__icone--neon" src="./assets/img/icons/shopify1.svg"
+                  alt="liquid icone" />
+              </div>
+
+              <div class="habilidades__icone">
+                <img class="habilidades__icone--imagem habilidades__icone--neon" src="./assets/img/icons/git-100.svg"
+                  alt="git icone" />
+              </div>
+
+              <div class="habilidades__icone">
+                <img class="habilidades__icone--imagem habilidades__icone--neon" src="./assets/img/icons/github-100.svg"
+                  alt="github icone" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="footer">
+      <div class="footer__container">
+
+        <h2 class="sections__titulo" title="CONTATO">CONTATO</h2>
+        <div class="footer__icones">
+          <div class="footer__icones--link footer__icones--neon">
+            <a href="https://github.com/raphabahr" target="_blank">
+              <img class="footer__icones--imagem" src="./assets/img/icons/github-50.svg" alt="github icone" />
+            </a>
+          </div>
+
+          <div class="footer__icones--link footer__icones--neon">
+            <a href="https://br.linkedin.com/in/raphael-bahr-92a73468" target="_blank">
+              <img class="footer__icones--imagem" src="./assets/img/icons/linkedin-50.svg" alt="linkedin icone" />
+            </a>
+          </div>
+
+          <div class="footer__icones--link footer__icones--neon">
+            <a href="https://www.instagram.com/raphaelbahr/" target="_blank">
+              <img class="footer__icones--imagem" src="./assets/img/icons/instagram-50.svg" alt="instagram icone" />
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__contato">
+          E-mail para contato: raphabahr@gmail.com <br />
+        </div>
+        <p class="copyright">&copy; By Raphael Bahr - 2022</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/intersection-observer.js"></script>
+  <script src="assets/js/sticky.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+/* @import url(reset.css); */
+@import url(animation.css);
+@import url(header.css);
+@import url(sobre.css);
+@import url(footer.css);
+@import url(projects.css);
+@import url(habilidade.css);
+
+
+:root {
+  --preto: #0D0D0D;
+  --azul-claro:#a6c9c9;
+  --azul-fundo: #153939;
+  --azul-escuro: #133333;
+  --preto-claro:#161515;
+  --branco: #ffffff;
+  --fonte-primaria:'Space Mono', monospace;
+  --fonte-secundaria:'Open Sans', sans-serif;
+  --fonte-terciaria: 'Fira Mono', monospace;
+}
+
+body {
+  color: #fff;
+  font-size: 16px;
+  font-family: var(--fonte-primaria);
+  font-weight: 300;
+  background-color: var(--preto);
+  margin: 4%;
+  font-size: 1.2rem;
+  text-shadow: 0 0 1rem #a6c9c9, 0 0 1rem #153939, 0 0 1rem #a6c9c9;
+}
+
+.border {
+  position: relative;
+  font-family: var(--fonte-primaria);
+  margin: 3% 3%;
+  width: 94%;
+  height: 85%;
+  background: linear-gradient(0deg, var(--preto), var(--preto));
+}
+
+/*  ----------------------------------------------------------------------
+------------------------Border light------------------------------------
+  ------------------------------- ----------------------------------------*/
+
+
+.glow::before, .glow::after {
+  content: '';
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(45deg, rgba(166,201,201,1) 0%, rgba(21,57,57,1) 45%, rgba(19,51,51,1) 74%, rgba(22,21,21,1) 93%);
+  background-size: 400%;
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  z-index: -1;
+  animation: animate 20s linear infinite;
+}
+
+.glow::after {
+  filter: blur(20px);
+}
+
+.show {
+  opacity: 1;
+}
+
+.sections__titulo {
+  text-shadow: 0 0 0.5rem #a6c9c9, 0 0 0rem #153939, 0 0 0rem #a6c9c9;
+  font-family: var(--fonte-terciaria);
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin: 0.3em;
+  letter-spacing: 1px;
+  animation: glitch 1s linear infinite;
+}
+
+
+

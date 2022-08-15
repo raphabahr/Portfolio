@@ -1,4 +1,4 @@
-# Big Game Survey 
+# Portfolio - Raphael Bahr
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/raphabahr/Portfolio/blob/main/LICENCE) 
 
 # Sobre o projeto

@@ -74,4 +74,9 @@
     .github__link a {
       font-size: 42px;
     }
+
+    .projects__container {
+      justify-content: space-around;
+      padding: 1em;
+    }
   }

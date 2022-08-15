@@ -27,7 +27,6 @@
   .titulo__texto p {
     text-align: center;
     margin-bottom: 1em;
-    text-decoration: underline;
     font-size: 20px;
     font-weight: 600;
   }
@@ -45,7 +44,6 @@
 
   .apresentacao__texto h1 {
     font-size: 18px;
-    text-decoration: underline;
   }
 
   .conteudo__texto {

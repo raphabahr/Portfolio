@@ -25,7 +25,7 @@ body {
   font-family: var(--fonte-primaria);
   font-weight: 300;
   background-color: var(--preto);
-  margin: 4%;
+  margin: 2%;
   font-size: 1.2rem;
   text-shadow: 0 0 1rem #a6c9c9, 0 0 1rem #153939, 0 0 1rem #a6c9c9;
 }

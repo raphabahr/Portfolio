@@ -8,3 +8,7 @@ if (botaoMenu) {
         menu.classList.toggle('menu-lateral--ativo');
     });
 }
+
+// Year
+
+document.getElementById("year").innerHTML = new Date().getFullYear();

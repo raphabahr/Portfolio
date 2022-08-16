@@ -41,7 +41,6 @@
 .footer__icones--neon:hover {
     box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
     border: 3px solid #00d7c3;
-    animation: bounce 1s;
 }
 
 @media screen and (min-width: 992px) {
@@ -61,6 +60,7 @@
     .copyright{
         font-size: 26px;
     }
+
 }
 
 
@@ -69,6 +69,10 @@
     .footer__contato, .copyright {
         font-size: 40px;
         margin: 0 0 0.5em 0;
+    }
+
+    .footer__icones--neon:hover {
+        animation: bounce 1s;
     }
 
     .copyright{

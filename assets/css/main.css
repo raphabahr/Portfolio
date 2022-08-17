@@ -6,6 +6,9 @@
 @import url(projects.css);
 @import url(habilidade.css);
 
+* {
+  scroll-behavior: smooth;
+}
 
 :root {
   --preto: #0D0D0D;
@@ -76,5 +79,31 @@ body {
   animation: glitch 1s linear infinite;
 }
 
+#link-home {
+  text-decoration: none;
+  text-shadow: none;
+  color: var(--branco);
+  background-color: transparent;
+  padding: 3px 10px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  box-shadow: 0 0 5px 0px #00d7c3 inset, 0 0 5px 2px #00d7c3;
+}
 
 
+@media screen and (min-width: 992px) {
+  #link-home {
+  padding: 0.5em 0.5em;
+  right: 2em;
+  bottom: 2em;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #link-home {
+    padding: 0.8em 0.8em;
+    right: 3em;
+    bottom: 3em;
+  }
+}

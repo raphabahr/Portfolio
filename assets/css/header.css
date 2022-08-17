@@ -13,6 +13,7 @@
 .hb {
   width: 2em;
   display: block;
+  background-color: transparent;
   border: 3px solid transparent;
 }
 
@@ -148,7 +149,14 @@
       position: fixed;
       top: 0;
       width: 100%;
-      margin: 0.5em;
-      margin-top: 99px;
+      margin: 1em;
+      margin-top: 20px;
   }
+
+  .cabecalho__menu {
+    justify-content: space-around;
+    margin: 0 2em 0 2em;
+    width: 80%;
+  }
+
 }

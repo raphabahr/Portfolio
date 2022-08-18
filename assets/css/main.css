@@ -70,7 +70,9 @@ body {
 
 .sections__titulo {
   text-shadow: 0 0 0.5rem #a6c9c9, 0 0 0rem #153939, 0 0 0rem #a6c9c9;
-  font-family: var(--fonte-terciaria);
+  font-family: var(--fonte-primaria);
+  font-size: 24px;
+  font-weight: 600;
   display: flex;
   align-self: center;
   justify-content: center;
@@ -91,12 +93,15 @@ body {
   box-shadow: 0 0 5px 0px #00d7c3 inset, 0 0 5px 2px #00d7c3;
 }
 
-
 @media screen and (min-width: 992px) {
   #link-home {
   padding: 0.5em 0.5em;
   right: 2em;
   bottom: 2em;
+  }
+
+  .sections__titulo {
+    font-size: 40px;
   }
 }
 
@@ -105,5 +110,9 @@ body {
     padding: 0.8em 0.8em;
     right: 3em;
     bottom: 3em;
+  }
+
+  .sections__titulo {
+    font-size: 46px;
   }
 }

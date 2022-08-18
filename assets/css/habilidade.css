@@ -1,6 +1,8 @@
 .container__habilidades {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
 }
 
 .habilidade__container {
@@ -9,8 +11,6 @@
   margin: 1em;
   padding: 0.5em;
 }
-
-/* novo */
 
 .habilidades__icone {
   display: flex;
@@ -29,14 +29,13 @@
   opacity: 0;
   transform: translateY(-100px);
   transition: 1s;
+  max-width: 120px;
 }
 
 .habilidades__icone:hover p {
   transform: translateY(0);
   opacity: 1;
 }
-
-/* novo */
 
 .habilidades__icone--imagem {
     width: 50%;
@@ -88,6 +87,7 @@
 
 @media screen and (min-width: 1400px) {
   .habilidades__icone p {
-    font-size: 30px;
+    font-size: 26px;
+    padding: 0em;
   }
 }

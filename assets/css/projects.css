@@ -3,44 +3,44 @@
     display: flex;
     flex-direction: column;
     padding: 1em 0;
-  }
+}
 
-  .projects__titulo {
+.projects__titulo {
     text-align: center;
       font-size: 30px;
       margin: 0.5em 0 0 0;
-  }
+}
 
-  .projects__container {
+.projects__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1em;
-  }
+}
 
-  .breve img {
+.breve img {
     width: 100%;
     border-radius: 20px;
-  }
+}
 
-  .breve {
+.breve {
     padding: 0.3em;
-  }
+}
 
-  .breve__neon::hover {
+.breve__neon::hover {
     box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
     border: 3px solid #00d7c3;
     animation: bounce 1s;
-  }
+}
 
-  .github__link {
+.github__link {
     font-family: var(--fonte-secundaria);
     text-align: center;
     text-decoration: none;
     margin-bottom: 1em;
-  }
+}
 
-  .github__link a {
+.github__link a {
     text-decoration: none;
     text-transform: uppercase;
     color: var(--branco);
@@ -48,14 +48,13 @@
     box-sizing: border-box;
     display: inline-block;
     cursor: pointer;
-  }
+}
 
-  .github__link a:hover {
+.github__link a:hover {
     animation: bounce 1s;
-  }
+}
 
-
-    @media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
 
       .projects h2 {
         font-size: 46px;
@@ -65,9 +64,9 @@
         font-size: 30px;
         margin-top: 1em;
     }
-  }
+}
 
-  @media screen and (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
     .projects__titulo {
       margin: 0.5em;
     }
@@ -80,4 +79,4 @@
       justify-content: space-around;
       padding: 1em;
     }
-  }
+}

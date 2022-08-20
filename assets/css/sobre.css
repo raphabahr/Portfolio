@@ -3,18 +3,18 @@
     border-radius: 5px;
     margin: 1em;
     padding: 0.5em;
-  }
+}
 
-  .cabecalho__botao:checked~.cabecalho__menu {
+.cabecalho__botao:checked~.cabecalho__menu {
     display: block;
-  }
+}
 
-  .container__apresentacao{
+.container__apresentacao{
     display: flex;
     justify-content: center;
-  }
+}
 
-  .container__imagem--raphael {
+.container__imagem--raphael {
     width: 100%;
     max-width: 458px;
     height: auto;
@@ -22,31 +22,31 @@
     border-radius: 14%;
     padding: 0.5em;
     display: block;
-  }
+}
 
-  .titulo__texto p {
+.titulo__texto p {
     text-align: center;
     margin-bottom: 1em;
     font-size: 20px;
     font-weight: 600;
-  }
+}
 
-  .apresentacao__texto {
+.apresentacao__texto {
     text-align: center;
     padding: 0.5em;
     font-size: 18px;
     font-weight: 700;
-  }
+}
 
-  .apresentacao__texto--desktop{
+.apresentacao__texto--desktop{
     display: none;
-  }
+}
 
-  .apresentacao__texto h1 {
+.apresentacao__texto h1 {
     font-size: 18px;
-  }
+}
 
-  .conteudo__texto {
+.conteudo__texto {
     display: block;
     position: relative;
     padding: 0.5em;
@@ -54,13 +54,13 @@
     text-align: center;
     font-size: 16px;
     margin-bottom: 2em;
-  }
+}
 
-  .wave {
+.wave {
     position: relative;
-  }
+}
 
-  .wave span {
+.wave span {
     position: relative;
     display: inline-block;
     font-size: 38px;
@@ -68,9 +68,9 @@
     text-transform: uppercase;
     animation: flip 2s infinite;
     animation-delay: calc(.2s * var(--i))
-  }
+}
 
-  @media screen and (min-width: 992px) {
+ @media screen and (min-width: 992px) {
     .container {
       box-shadow: none;
     }
@@ -98,9 +98,9 @@
     .container__apresentacao {
       margin-top: 4em;
     }
-  }
+}
 
-  @media screen and (min-width: 1550px) {
+@media screen and (min-width: 1550px) {
     .container {
       box-shadow: none;
     }
@@ -155,4 +155,4 @@
       opacity: 0;
       transition: opacity 3.0s ease-out;
     }
-  }
+}

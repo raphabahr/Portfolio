@@ -1,5 +1,4 @@
 // Hamburger button
-
 const botaoMenu = document.querySelector('.cabecalho__menu');
 const menu = document.querySelector('.menu-lateral');
 
@@ -10,5 +9,4 @@ if (botaoMenu) {
 }
 
 // Year
-
 document.getElementById("year").innerHTML = new Date().getFullYear();

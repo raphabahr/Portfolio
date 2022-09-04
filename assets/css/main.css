@@ -5,6 +5,7 @@
 @import url(footer.css);
 @import url(projects.css);
 @import url(habilidade.css);
+@import url(glitch-avatar.css);
 
 * {
   scroll-behavior: smooth;

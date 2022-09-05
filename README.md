@@ -7,7 +7,7 @@ Meu primeiro projeto usando HTML / JS / CSS, desenvolvido para me apresentar e m
 Link do projeto - https://endearing-arithmetic-cc8603.netlify.app/
 -----------------------------
 
-## Front end
+## Projeto - Front end - Tecnologias usadas
 - HTML / CSS / JS / 
 
 # Autor

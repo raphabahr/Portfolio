@@ -159,4 +159,13 @@
     width: 80%;
   }
 
+  .sticky .cabecalho__menu {
+    background-color: var(--preto);
+    padding: 1em;
+    border-radius: 20px;
+  }
+
+  .sticky .cabecalho__menu .menu__item {
+    margin: 0;
+  }
 }

@@ -20,6 +20,7 @@
   position: relative;
   top: 25px;
   font-size: 10px;
+
 }
 
 .habilidades__icone p {
@@ -30,6 +31,7 @@
   transform: translateY(-100px);
   transition: 1s;
   max-width: 120px;
+  min-height: 150px;
 }
 
 .habilidades__icone:hover p {
@@ -40,6 +42,7 @@
 .habilidades__icone--imagem {
     width: 50%;
     max-width: 50px;
+    max-height: 50px;
     background: var(--azul-claro);
     border-radius: 25%;
     box-sizing: border-box;
@@ -62,13 +65,14 @@
   }
 
   .habilidade__titulo {
-     margin: 0.5em;
+    margin: 0.5em;
     font-size: 46px;
   }
 
   .habilidades__icone--imagem {
     width: 100%;
-    max-width: 100px;
+    min-width: 100px;
+    min-height: 100px;
   }
 
   .container__habilidades {
@@ -86,6 +90,7 @@
 }
 
 @media screen and (min-width: 1400px) {
+
   .habilidades__icone p {
     font-size: 26px;
     padding: 0em;

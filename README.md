@@ -1,4 +1,4 @@
-# Portfolio - Raphael Bahr
+# Portfolio - Raphael Bahr - In progress
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/raphabahr/Portfolio/blob/main/LICENCE) 
 
 # Sobre o projeto

@@ -43,6 +43,10 @@
     border: 3px solid #00d7c3;
 }
 
+.footer__icones--imagem {
+    max-height: 50px;
+}
+
 @media screen and (min-width: 992px) {
     .footer__contato, .footer__container {
         font-size: 30px;
@@ -60,8 +64,12 @@
     .copyright{
         font-size: 26px;
     }
-}
 
+    .footer__icones--imagem {
+        max-height: 100px;
+        min-height: 100px;
+    }
+}
 
 @media screen and (min-width: 1400px) {
 

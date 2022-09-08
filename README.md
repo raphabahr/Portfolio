@@ -11,12 +11,11 @@ Link do projeto - https://endearing-arithmetic-cc8603.netlify.app/
 -----------------------------
 
 ## Projeto - Front end - Tecnologias usadas - Technologies used
-- Mobile first
 - HTML / CSS / JS  
 
 ## Métodos - Methods
 
--Mobile first
+* Mobile first
 
 ## Serviços usados - Services Used
 

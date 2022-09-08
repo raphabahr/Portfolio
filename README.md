@@ -14,6 +14,10 @@ Link do projeto - https://endearing-arithmetic-cc8603.netlify.app/
 - Mobile first
 - HTML / CSS / JS  
 
+## Métodos - Methods
+
+-Mobile first
+
 ## Serviços usados - Services Used
 
 * Github

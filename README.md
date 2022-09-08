@@ -3,15 +3,16 @@ This is my portfolio !
 # Portfolio - Raphael Bahr - In progress
 
 # Sobre o projeto - About the project
-Meu primeiro projeto front-end, desenvolvido para me apresentar e mostrar um pouco do meu conhecimento em Front-end.
+Meu primeiro projeto front-end, totalmente responsivo,  desenvolvido para me apresentar e mostrar um pouco do meu conhecimento em Front-end.
 <br>
-My first front-end project, developed to introduce myself and show some of my knowledge in Front-end
+My first front-end project, fully responsive, developed to introduce myself and show some of my knowledge in Front-end.
  
 Link do projeto - https://endearing-arithmetic-cc8603.netlify.app/
 -----------------------------
 
 ## Projeto - Front end - Tecnologias usadas - Technologies used
-- HTML / CSS / JS / 
+- Mobile first
+- HTML / CSS / JS  
 
 ## Serviços usados - Services Used
 

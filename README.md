@@ -32,7 +32,7 @@ Link do projeto - https://endearing-arithmetic-cc8603.netlify.app/
   - Open the folder in VScode and start Liveview on index.html. 
 
 ## Links
-  - Deploy on Heroku: https://endearing-arithmetic-cc8603.netlify.app/
+  - Deploy on netlify: https://endearing-arithmetic-cc8603.netlify.app/
   - Repository: https://github.com/raphabahr/Portfolio
     - In case of sensitive bugs like security vulnerabilities, please contact
       raphabahr@gmail.com directly instead of using issue tracker. We value your effort

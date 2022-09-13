@@ -82,6 +82,7 @@
   .habilidades__icone {
      padding: 1em;
      margin: 1em;
+     align-self: stretch;
   }
 
   .habilidades__icone p {
@@ -91,9 +92,17 @@
 
 @media screen and (min-width: 1400px) {
 
+  .habilidades__icone {
+    align-self: stretch;
+    margin: 0;
+    padding: 0em;
+    width: 90%;
+  }
+
   .habilidades__icone p {
     font-size: 26px;
     padding: 0em;
+    max-width: 250px;
   }
 
   .habilidades__texto {
@@ -101,17 +110,13 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width: 100%;
   }
 
   .container__habilidades {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: 1em;
-  }
-
-  .habilidades__icone {
-    align-self: stretch;
-    margin: 0;
   }
 }

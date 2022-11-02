@@ -1,0 +1,221 @@
+.projects {
+    background: var(--azul-fundo);
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0;
+}
+
+.projects__titulo {
+    text-align: center;
+      font-size: 30px;
+      margin: 0.5em 0 0 0;
+}
+
+.projects__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    row-gap: 1em;
+}
+
+figure.projetos__card {
+    font-family: 'Raleway', Arial, sans-serif;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-height: 150px;
+    max-height: 150px;
+    max-width: 250px;
+    width: 100%;
+    background: #000000;
+    text-align: left;
+    border-radius: 20px;
+  }
+
+figure.projetos__card * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+figure.projetos__card img {
+    max-width: 100%;
+    opacity: 1;
+    width: 100%;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+}
+
+figure.projetos__card figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 30px 3em;
+    width: 100%;
+    height: 100%;
+}
+
+figure.projetos__card figcaption::before {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 100%;
+    border-left: 4px solid rgba(255, 255, 255, 0.8);
+    content: '';
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transition-delay: 0.6s;
+    transition-delay: 0.6s;
+}
+
+figure.projetos__card h2,
+figure.projetos__card p {
+    font-size: 24px;
+    margin: 0 0 5px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s,-webkit-transform 0.35s,-moz-transform 0.35s,-o-transform 0.35s,transform 0.35s;
+}
+
+figure.projetos__card h2 {
+    word-spacing: -0.15em;
+    font-weight: 300;
+    text-transform: uppercase;
+    -webkit-transform: translate3d(30%, 0%, 0);
+    transform: translate3d(30%, 0%, 0);
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+
+figure.projetos__card h2 span {
+    font-weight: 800;
+}
+
+figure.projetos__card p {
+    font-weight: 200;
+    -webkit-transform: translate3d(0%, 30%, 0);
+    transform: translate3d(0%, 30%, 0);
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+figure.projetos__card a {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    color: #ffffff;
+}
+
+figure.projetos__card:hover img {
+    opacity: 0.3;
+}
+
+figure.projetos__card:hover figcaption h2 {
+    opacity: 1;
+    -webkit-transform: translate3d(0%, 0%, 0);
+    transform: translate3d(0%, 0%, 0);
+    -webkit-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+}
+
+figure.projetos__card:hover figcaption p {
+    opacity: 0.9;
+    -webkit-transform: translate3d(0%, 0%, 0);
+    transform: translate3d(0%, 0%, 0);
+    -webkit-transition-delay: 0.6s;
+    transition-delay: 0.6s;
+}
+
+figure.projetos__card:hover figcaption::before {
+    background: rgba(255, 255, 255, 0);
+    left: 30px;
+    opacity: 1;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+figcaption {
+  display: none;
+}
+
+.github__link {
+    font-family: var(--fonte-secundaria);
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.github__link a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--branco);
+    border-radius: 25%;
+    box-sizing: border-box;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.github__link a:hover {
+    animation: bounce 1s;
+}
+
+@media screen and (min-width: 992px) {
+
+      .projects h2 {
+        font-size: 46px;
+    }
+
+      .github__link {
+        font-size: 30px;
+        margin-top: 1em;
+    }
+
+    .breve img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    figure.projetos__card {
+      min-width: 220px;
+      max-width: 310px;
+      max-height: 220px;
+      width: 100%;
+    }
+
+    figcaption {
+      display: block;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    .projects__titulo {
+      margin: 0.5em;
+    }
+
+    figure.projetos__card {
+      min-width: 220px;
+      max-width: 310px;
+      max-height: 220px;
+      width: 100%;
+    }
+
+    .github__link a {
+      font-size: 42px;
+    }
+
+    .projects__container {
+      justify-content: space-around;
+      padding: 1em;
+    }
+
+    figcaption {
+      display: block;
+    }
+
+}

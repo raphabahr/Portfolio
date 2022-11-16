@@ -1,4 +1,4 @@
-// Text Appear effect on scroll
+// Efeito de texto aparecendo - Sobre mim
 
 const intersectionObserverOptions = {
     rootMargin: '0px 0px -200px 0px'

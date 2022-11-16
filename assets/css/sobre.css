@@ -56,20 +56,6 @@
     margin-bottom: 2em;
 }
 
-.wave {
-    position: relative;
-}
-
-.wave span {
-    position: relative;
-    display: inline-block;
-    font-size: 38px;
-    color: #fff;
-    text-transform: uppercase;
-    animation: flip 2s infinite;
-    animation-delay: calc(.2s * var(--i))
-}
-
  @media screen and (min-width: 992px) {
     .container {
       box-shadow: none;

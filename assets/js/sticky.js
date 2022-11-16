@@ -1,4 +1,4 @@
-// sticky header
+// Cabeçario fixo
 
 window.addEventListener("scroll", function () {
   var header = document.querySelector("header");

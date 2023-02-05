@@ -19,6 +19,7 @@
 }
 
 figure.projetos__card {
+    display: flex;
     font-family: 'Raleway', Arial, sans-serif;
     color: #fff;
     position: relative;
@@ -143,6 +144,10 @@ figcaption {
   display: none;
 }
 
+.link-mobile {
+    display: block;
+}
+
 .github__link {
     font-family: var(--fonte-secundaria);
     text-align: center;
@@ -166,11 +171,11 @@ figcaption {
 
 @media screen and (min-width: 992px) {
 
-      .projects h2 {
+    .projects h2 {
         font-size: 46px;
     }
 
-      .github__link {
+    .github__link {
         font-size: 30px;
         margin-top: 1em;
     }
@@ -189,6 +194,10 @@ figcaption {
 
     figcaption {
       display: block;
+    }
+
+    .link-mobile {
+    display: none;
     }
 }
 
@@ -216,6 +225,10 @@ figcaption {
 
     figcaption {
       display: block;
+    }
+
+    .link-mobile {
+    display: none;
     }
 
 }

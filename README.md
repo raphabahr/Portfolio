@@ -1,6 +1,6 @@
 This is my portfolio !
 
-# Portfolio - Raphael Bahr - In progress
+# Portfolio - Raphael Bahr
 
 # Sobre o projeto - About the project
 Meu primeiro projeto front-end, totalmente responsivo,  desenvolvido para me apresentar e mostrar um pouco do meu conhecimento em Front-end.
